@@ -1218,6 +1218,7 @@ input[type="radio"]:checked + .lbl-redio {
 .va-user-info{
   color: var(--color-text-dark);
   font-size: 1.6rem;
+  margin-top: 10px;
 }
 .varify-btn{
   background-color: var(--color-primaty);
@@ -1339,4 +1340,18 @@ input[type="radio"]:checked + .lbl-redio {
     font-weight: 400;
     font-size: 14px;
   }
+}
+
+/* product price edit */
+.va-user-data .volume-edit{
+  width: 80px;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 2px solid var(--color-primaty);
+  -webkit-appearance: none;
+  margin: 0;
+  appearance: textfield;
+}
+.va-user-data .volume-edit:focus{
+outline: none;
 }
